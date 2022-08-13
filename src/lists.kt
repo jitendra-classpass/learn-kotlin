@@ -10,5 +10,6 @@ fun main() {
     }
     println(names)
 
+    names.map { it.plus(" is a man") }.forEach(::println)
     for (name:String in names) println(name)
 }
